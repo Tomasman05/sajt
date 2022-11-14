@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.container{
+    background: url(../020915c.jpeg) no-repeat;
+    background-size: cover;
+    max-width: 95%;
+    width: 1200px;
+    margin: 0 auto;
+}
+nav ul li {
+    float: left;
+    padding: 20px;
+    width: 19.99999%;
+    background-color: aqua;
+    border-left: 1px solid black ;
+    text-align: center;
+}
+nav ul li:last-child{
+    border-right: 1px solid black;
+}
+nav ul li:hover{
+    background-color: white;
+}
+nav ul li a {
+   text-decoration: none;
+   
+}
+img {
+    float: left;
+}
+p{
+    text-align: justify;
+}
+.content {
+    background-color: bisque;
+}
+footer p{
+    text-align: center;
+}
+nav ul li::after, img::after{
+    content: "";
+    display: table;
+    clear: both;
+}
